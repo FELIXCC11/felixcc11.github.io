@@ -1,6 +1,9 @@
 const container = document.getElementById("container");
 const imageOne = document.querySelector(".image-1");
 const imageTwo = document.querySelector(".image-2");
+const ermFingers = document.querySelector(".erm-fingers");
+const ohYay = document.querySelector(".oh-yay");
+const pinkWhite = document.querySelector(".pink-white");
 const btnYes = document.querySelector(".btn-yes");
 const btnNo = document.querySelector(".btn-no");
 
@@ -38,3 +41,4 @@ btnYes.addEventListener("click", (e) => {
   imageOne.classList.add("hide");
   imageTwo.classList.remove("hide");
 });
+
